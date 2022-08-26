@@ -1,6 +1,6 @@
 # 65794
 ```lua
-math.floor((bit32.lshift(r / 15, 16) + bit32.lshift(g / 0xF, 8) + b / 0xF) * 0xF / 0xFF + 1)
+math.floor((bit32.lshift(r / 0xF, 16) + bit32.lshift(g / 0xF, 8) + b / 0xF) * 0xF / 0xFF + 1)
 ```
 # 256
 ```lua
